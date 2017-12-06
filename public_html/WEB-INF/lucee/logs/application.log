@@ -1,0 +1,48 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"INFO","access2018-startStop-1","12/06/2017","13:19:32","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","12/06/2017","13:19:32","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","12/06/2017","13:19:32","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"ERROR","Thread-11","12/06/2017","13:19:43","",";Page /index.cfm [C:\inetpub\wwwroot\access2018\public_html\index.cfm] not found;lucee.runtime.exp.MissingIncludeException: Page /index.cfm [C:\inetpub\wwwroot\access2018\public_html\index.cfm] not found
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:923)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@19469ea2]"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@6bc000e1]"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","looking for tools.jar"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","pid:11872"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-11","12/06/2017","13:19:44","Instrumentation","ExternalAgent does contain a Instrumentation instance"
+"ERROR","Thread-18","12/06/2017","13:20:15","",";Page /index.cfm [C:\inetpub\wwwroot\access2018\public_html\index.cfm] not found;lucee.runtime.exp.MissingIncludeException: Page /index.cfm [C:\inetpub\wwwroot\access2018\public_html\index.cfm] not found
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:923)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-20","12/06/2017","13:20:17","",";Page /index.cfm [C:\inetpub\wwwroot\access2018\public_html\index.cfm] not found;lucee.runtime.exp.MissingIncludeException: Page /index.cfm [C:\inetpub\wwwroot\access2018\public_html\index.cfm] not found
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:923)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
