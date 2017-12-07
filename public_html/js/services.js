@@ -357,7 +357,7 @@ accessServices.constant("settings",{
         }
         else
         {
-          return "http://fgbc.org/api/courses"
+          return "http://charisfellowship.us/api/courses"
         }
       },
       apiGetMeals: function(){
