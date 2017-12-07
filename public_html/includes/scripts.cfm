@@ -1,5 +1,5 @@
 <script type="text/javascript" src="assets/js/retina.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&key=AIzaSyA_5Kn6jyBkczc9g1ChRqtrn5H3k5b1xf8"></script>
 <script type="text/javascript" src="assets/js/kinetic.js"></script>
 <script type="text/javascript" src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/placeholder.js"></script>
