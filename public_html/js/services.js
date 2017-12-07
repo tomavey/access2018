@@ -182,12 +182,12 @@ var accessServices = angular.module('accessServices',[])
             }(),
             lunch: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.lunch));
-                scheduleInfo.title = "Sponsored by the FGBC",
+                scheduleInfo.title = "Sponsored by the Charis Fellowship",
                 scheduleInfo.image = "assets/pictures/meal-2.jpg";
                 scheduleInfo.timeStart = "12:30";
                 scheduleInfo.timeEnd = "02:30";
-                scheduleInfo.sideTitle = "Welcome to Access2017!";
-                scheduleInfo.sideDescription = "What is access2017? Who is the FGBC? How does this movement work? Everyone is encouraged to join us for lunch.";
+                scheduleInfo.sideTitle = "Welcome to access2018!";
+                scheduleInfo.sideDescription = "What is access2018? Who is the Charis Fellowship? How does this movement work? Everyone is encouraged to join us for lunch.";
                 return scheduleInfo;
             }(),
             dinner: function(){
@@ -213,7 +213,7 @@ var accessServices = angular.module('accessServices',[])
             cohortA: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.cohortA));
                 scheduleInfo.sideTitle = "A-Cohorts",
-                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/conference.courses/list/cohort' target='_new'>HERE.</a>",
+                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.charisfellowship.us/conference.courses/list/cohort' target='_new'>HERE.</a>",
                 scheduleInfo.image = "assets/pictures/cohort-1.jpg";
                 scheduleInfo.timeStart = "11:15";
                 scheduleInfo.timeEnd = "12:15";
@@ -222,7 +222,7 @@ var accessServices = angular.module('accessServices',[])
             cohortB: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.cohortB));
                 scheduleInfo.sideTitle = "A-Cohorts",
-                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/conference.courses/list/cohort' target='_new'>HERE.</a>",
+                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.charisfellowship.us/conference.courses/list/cohort' target='_new'>HERE.</a>",
                 scheduleInfo.image = "assets/pictures/cohort-2.jpg";
                 scheduleInfo.timeStart = "03:00";
                 scheduleInfo.timeEnd = "05:00";
@@ -267,14 +267,14 @@ var accessServices = angular.module('accessServices',[])
             cohortA: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.cohortA));
                 scheduleInfo.sideTitle = "A-Cohorts",
-                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts. A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/conference.courses/list/cohort' target='_new'>HERE.</a>",
+                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts. A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.charisfellowship.us/conference.courses/list/cohort' target='_new'>HERE.</a>",
                 scheduleInfo.image = "assets/pictures/cohort-3.jpg";
                 return scheduleInfo;
             }(),
             cohortB: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.cohortB));
                 scheduleInfo.sideTitle = "B-Cohorts",
-                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  B-Cohorts meet Wednesday afternoon and Thursday morning and afternoon.  Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/conference.courses/list/cohort' target='_new'>HERE.</a>",
+                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  B-Cohorts meet Wednesday afternoon and Thursday morning and afternoon.  Use the link at the top of this page to see the list or click <a href='http://www.charisfellowship.us/conference.courses/list/cohort' target='_new'>HERE.</a>",
                 scheduleInfo.image = "assets/pictures/cohort-4.jpg";
                 return scheduleInfo;
             }()
@@ -293,7 +293,7 @@ var accessServices = angular.module('accessServices',[])
                 scheduleInfo.title = "Sponsored by the Fellowship of Grace Brethren Churches",
                 scheduleInfo.image = "assets/pictures/meal-1.jpg";
                 scheduleInfo.sideTitle = "Fellowship of Grace Brethren Churches";
-                scheduleInfo.sideDescription = "This is the annual business meeting of the <a href='http://www.fgbc.org' target='_new'> Fellowship of Grace Brethren Churches</a>. Delegates are encouraged to attend, everyone is welcome!";
+                scheduleInfo.sideDescription = "This is the annual business meeting of the <a href='http://www.charisfellowship.us' target='_new'> Fellowship of Grace Brethren Churches</a>. Delegates are encouraged to attend, everyone is welcome!";
                 return scheduleInfo;
             }(),
             dinner: function(){
@@ -317,14 +317,14 @@ var accessServices = angular.module('accessServices',[])
             cohortA: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.cohortA));
                 scheduleInfo.sideTitle = "B-Cohorts",
-                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  B-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/conference.courses/list/cohort' target='_new'>HERE.</a>",
+                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  B-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href='http://www.charisfellowship.us/conference.courses/list/cohort' target='_new'>HERE.</a>",
                 scheduleInfo.image = "assets/pictures/cohort-5.jpg";
                 return scheduleInfo;
             }(),
             cohortB: function(){
                 var scheduleInfo = JSON.parse(JSON.stringify(defaultScheduleInfo.cohortB));
                 scheduleInfo.sideTitle = "B-Cohorts",
-                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  B-Cohorts meet Wednesday afternoon and Thursday morning and afternoon. Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/conference.courses/list/cohort' target='_new'>HERE.</a>",
+                scheduleInfo.sideDescription = "Access Relationships Start Here! Each attendee can participate in two cohorts.  B-Cohorts meet Wednesday afternoon and Thursday morning and afternoon. Use the link at the top of this page to see the list or click <a href='http://www.charisfellowship.us/conference.courses/list/cohort' target='_new'>HERE.</a>",
                 scheduleInfo.image = "assets/pictures/cohort-6.jpg";
                 return scheduleInfo;
             }()
@@ -334,25 +334,25 @@ var accessServices = angular.module('accessServices',[])
 
 accessServices.constant("settings",{
         apiHost : function(){
-        if (location.hostname == "access:8888"){
-          return "http://access:8888/api/emaillist";
+        if (location.hostname == "access2018:8080"){
+          return "http://access2018:8080/api/emaillist";
         }
         else
         {
-          return "http://access2017.com/";
+          return "http://access2018.com/";
         }
       },
       apiPostAnnounce: function(){
-        if (location.host == "access:8888"){
-          return "http://access:8888/api/emaillist/save/"
+        if (location.host == "access2018:8080"){
+          return "http://access2018:8080/api/emaillist/save/"
         }
         else
         {
-          return "http://.com/api/emaillist/save/"
+          return "http://access2018.com/api/emaillist/save/"
         }
       },
       apiGetWorkshops: function(){
-        if (location.host == "access:8888"){
+        if (location.host == "access2018:8080"){
           return "http://localhost:8888/index.cfm/api/courses"
         }
         else
@@ -361,12 +361,12 @@ accessServices.constant("settings",{
         }
       },
       apiGetMeals: function(){
-        if (location.host == "access:8888"){
+        if (location.host == "access2018:8080"){
           return "http://localhost:8888/index.cfm/api/meals"
         }
         else
         {
-          return "http://fgbc.org/api/meals"
+          return "http://charisfellowship.us/api/meals"
         }
       },
 })
