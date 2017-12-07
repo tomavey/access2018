@@ -53,7 +53,7 @@ var accessServices = angular.module('accessServices',[])
             })
             .success(callback)
             .error(function(data,status){
-              console.log(data);
+              console.log("DATA:" + data);
               console.log(status)
             });
             console.log(subscription);
@@ -353,7 +353,7 @@ accessServices.constant("settings",{
       },
       apiGetWorkshops: function(){
         if (location.host == "access2018:8080"){
-          return "http://localhost:8888/index.cfm/api/courses"
+          return "http://fgbc:8080/index.cfm/api/courses"
         }
         else
         {
