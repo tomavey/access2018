@@ -1,0 +1,16 @@
+scheduleItems = {
+	default: {
+        breakfast: {
+            type: "Breakfast",
+            title: "Meal with a mission!",
+            location: "Gym",
+            sideTitle: "Sponsored Meal",
+            sideDescription "Default description",
+            timeStart: "07:00",
+            timeEnd: "8:30"
+        }
+	}	
+	tuesday:{}
+	wednesday:{}
+	thursday:{}
+}

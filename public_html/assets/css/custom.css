@@ -1,0 +1,131 @@
+body {
+    font-family: "Helvetica Neue, Helvetica, Liberation Sans, Arial, sans-serif"
+}
+
+.logo a {
+    background-image: url("/images/logo360.png");
+    background-repeat: no-repeat;
+    background-position: 0  5px;
+    width: 150px;
+    height: 60px;
+    -webkit-transition: all 0.001s ease-in-out 0s;
+    -moz-transition: all 0.001s ease-in-out 0s;
+    -o-transition: all 0.001s ease-in-out 0s;
+    transition: all 0.001s ease-in-out 0s;
+}
+
+.sliderimage {
+  position: relative;
+  left: 50%;
+  margin-left: -1440px;
+}
+
+.header-item div h1 {
+    font-weight: bold !important;
+}
+
+.header-item div h4 {
+    color: black;
+    font-weight: bold !important;
+    font-size: 2em;
+}
+
+.captionmore  {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.pricing-wrapper .pricing .pricing-inner .price {
+  padding: 110px 0 30px 30px;
+}
+
+.pricing-wrapper .pricing .pricing-inner .content ul {
+    margin-bottom: -50px;
+}
+
+.printschedule {
+    text-align: center;
+    display: block;
+    color:white;
+}
+
+.printschedule:hover, .printschedule:visited {
+    color:lightcoral;
+}
+
+.hotels {
+    margin-top:30px;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+.hotels ul {
+    list-style: none
+}
+
+li.hotelname {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+li.hotelname ul {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.hotels a, .hotels a:hover, .hotels a:visited  {
+    color:black
+}
+
+
+.childcare, .lodging {
+    font-size: 1.5em;
+    font-family: "Arial",sans-serif;
+    line-height: 1.5em;
+}
+ 
+.cohortnavlink {
+    cursor:pointer;
+} 
+
+h1.mobilebannerheader {
+    font-size:60px !IMPORTANT;
+}
+
+h1.bannerheader {
+    font-size:100px !IMPORTANT;
+}
+
+.submenu {
+    border-bottom: none;
+}
+
+.gracekidsschedule {
+    font-size:.8em;
+    border:2px solid gray;
+    border-radius: 10px;
+    padding:10px
+}
+
+.gracekidsschedule td,.gracekidsschedule th {
+    padding:10px;
+    border: 1px lightcoral; solid;
+}
+
+tr th {
+    text-align:right
+}
+
+tr.toprow th {
+    text-align:center;
+}
+
+tr.row1,tr.row3, tr.row5, tr.row7 {
+    background-color: lightyellow;
+}
+
+tr.row2,tr.row4, tr.row6 {
+    background-color: lightgoldenrodyellow;

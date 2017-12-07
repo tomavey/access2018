@@ -46,3 +46,333 @@
 	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
 	at lucee.runtime.engine.Request.run(Request.java:34)
 "
+"INFO","access2018-startStop-1","12/07/2017","07:41:34","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","12/07/2017","07:41:34","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","12/07/2017","07:41:34","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","12/07/2017","07:45:31","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","12/07/2017","07:45:31","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","12/07/2017","07:45:31","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@19469ea2]"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@582b45f3]"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","looking for tools.jar"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","pid:10516"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-43","12/07/2017","07:48:18","Instrumentation","ExternalAgent does contain a Instrumentation instance"
+"ERROR","Thread-319","12/07/2017","08:10:18","",";key [OPENSECTIONS] doesn't exist;lucee.runtime.exp.ExpressionException: key [OPENSECTIONS] doesn't exist
+	at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:69)
+	at lucee.runtime.type.StructImpl.get(StructImpl.java:135)
+	at lucee.runtime.type.scope.storage.StorageScopeImpl.get(StorageScopeImpl.java:247)
+	at functions.functions_cfm$cf.udfCall1(/functions/functions.cfm:23)
+	at functions.functions_cfm$cf.udfCall(/functions/functions.cfm)
+	at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:106)
+	at lucee.runtime.type.UDFImpl._call(UDFImpl.java:338)
+	at lucee.runtime.type.UDFImpl.call(UDFImpl.java:225)
+	at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:772)
+	at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:758)
+	at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:1701)
+	at functions.functions_cfm$cf.udfCall1(/functions/functions.cfm:36)
+	at functions.functions_cfm$cf.udfCall(/functions/functions.cfm)
+	at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:106)
+	at lucee.runtime.type.UDFImpl._call(UDFImpl.java:338)
+	at lucee.runtime.type.UDFImpl.call(UDFImpl.java:225)
+	at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:772)
+	at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:758)
+	at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:1701)
+	at includes.navigation_cfm$cf.call(/includes/navigation.cfm:20)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:16)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-516","12/07/2017","08:25:54","",";key [NAME] doesn't exist;lucee.runtime.exp.ExpressionException: key [NAME] doesn't exist
+	at lucee.runtime.type.util.StructSupport.invalidKey(StructSupport.java:69)
+	at lucee.runtime.type.StructImpl.get(StructImpl.java:135)
+	at lucee.runtime.type.scope.storage.StorageScopeImpl.get(StorageScopeImpl.java:247)
+	at includes.whycome_cfm$cf.call(/includes/whycome.cfm:21)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:55)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-617","12/07/2017","08:34:07","",";Syntax Error, Invalid Construct;lucee.runtime.exp.TemplateException: Syntax Error, Invalid Construct
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.checker(AbstrCFMLExprTransformer.java:1012)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.clip(AbstrCFMLExprTransformer.java:952)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.negatePlusMinusOp(AbstrCFMLExprTransformer.java:940)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.unaryOp(AbstrCFMLExprTransformer.java:876)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.expoOp(AbstrCFMLExprTransformer.java:865)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.divMultiOp(AbstrCFMLExprTransformer.java:805)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.modOp(AbstrCFMLExprTransformer.java:773)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.plusMinusOp(AbstrCFMLExprTransformer.java:725)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.concatOp(AbstrCFMLExprTransformer.java:690)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.decsionOp(AbstrCFMLExprTransformer.java:523)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.notOp(AbstrCFMLExprTransformer.java:508)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.andOp(AbstrCFMLExprTransformer.java:478)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.orOp(AbstrCFMLExprTransformer.java:459)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.xorOp(AbstrCFMLExprTransformer.java:441)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.eqvOp(AbstrCFMLExprTransformer.java:424)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.impOp(AbstrCFMLExprTransformer.java:407)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.conditionalOp(AbstrCFMLExprTransformer.java:361)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.assignOp(AbstrCFMLExprTransformer.java:337)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.expression(AbstrCFMLExprTransformer.java:287)
+	at lucee.transformer.cfml.script.CFMLScriptTransformer.expression(CFMLScriptTransformer.java:60)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.expressionStatement(AbstrCFMLScriptTransformer.java:1984)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:242)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:216)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statements(AbstrCFMLScriptTransformer.java:199)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statements(AbstrCFMLScriptTransformer.java:183)
+	at lucee.transformer.cfml.script.CFMLScriptTransformer.transform(CFMLScriptTransformer.java:54)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:633)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:363)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.transform(CFMLTransformer.java:303)
+	at lucee.transformer.cfml.tag.CFMLTransformer.transform(CFMLTransformer.java:150)
+	at lucee.runtime.compiler.CFMLCompilerImpl._compile(CFMLCompilerImpl.java:126)
+	at lucee.runtime.compiler.CFMLCompilerImpl.compile(CFMLCompilerImpl.java:74)
+	at lucee.runtime.PageSourceImpl._compile(PageSourceImpl.java:355)
+	at lucee.runtime.PageSourceImpl.compile(PageSourceImpl.java:322)
+	at lucee.runtime.PageSourceImpl.loadPhysical(PageSourceImpl.java:264)
+	at lucee.runtime.PageSourceImpl.loadPageThrowTemplateException(PageSourceImpl.java:182)
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:905)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:923)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:8)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-629","12/07/2017","08:34:51","",";variable [A] doesn't exist;lucee.runtime.exp.ExpressionException: variable [A] doesn't exist
+	at lucee.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:235)
+	at functions.functions_cfm$cf.udfCall3(/functions/functions.cfm:128)
+	at functions.functions_cfm$cf.udfCall(/functions/functions.cfm)
+	at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:106)
+	at lucee.runtime.type.UDFImpl._call(UDFImpl.java:338)
+	at lucee.runtime.type.UDFImpl.call(UDFImpl.java:225)
+	at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:772)
+	at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:758)
+	at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:1701)
+	at includes.slidingbanner_cfm$cf.call(/includes/slidingbanner.cfm:36)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:18)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-631","12/07/2017","08:34:57","",";variable [A] doesn't exist;lucee.runtime.exp.ExpressionException: variable [A] doesn't exist
+	at lucee.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:235)
+	at functions.functions_cfm$cf.udfCall3(/functions/functions.cfm:128)
+	at functions.functions_cfm$cf.udfCall(/functions/functions.cfm)
+	at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:106)
+	at lucee.runtime.type.UDFImpl._call(UDFImpl.java:338)
+	at lucee.runtime.type.UDFImpl.call(UDFImpl.java:225)
+	at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:772)
+	at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:758)
+	at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:1701)
+	at includes.slidingbanner_cfm$cf.call(/includes/slidingbanner.cfm:36)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:18)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-664","12/07/2017","08:37:17","",";variable [A] doesn't exist;lucee.runtime.exp.ExpressionException: variable [A] doesn't exist
+	at lucee.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:235)
+	at functions.functions_cfm$cf.udfCall3(/functions/functions.cfm:128)
+	at functions.functions_cfm$cf.udfCall(/functions/functions.cfm)
+	at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:106)
+	at lucee.runtime.type.UDFImpl._call(UDFImpl.java:338)
+	at lucee.runtime.type.UDFImpl.call(UDFImpl.java:225)
+	at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:772)
+	at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:758)
+	at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:1701)
+	at includes.slidingbanner_cfm$cf.call(/includes/slidingbanner.cfm:36)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:18)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-676","12/07/2017","08:38:08","",";Invalid Syntax Closing [)] for function [lcase] not found;lucee.runtime.exp.TemplateException: Invalid Syntax Closing [)] for function [lcase] not found
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.getFunctionMember(AbstrCFMLExprTransformer.java:1889)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.startElement(AbstrCFMLExprTransformer.java:1638)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.dynamic(AbstrCFMLExprTransformer.java:1267)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.checker(AbstrCFMLExprTransformer.java:989)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.clip(AbstrCFMLExprTransformer.java:952)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.negatePlusMinusOp(AbstrCFMLExprTransformer.java:940)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.unaryOp(AbstrCFMLExprTransformer.java:876)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.expoOp(AbstrCFMLExprTransformer.java:865)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.divMultiOp(AbstrCFMLExprTransformer.java:805)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.modOp(AbstrCFMLExprTransformer.java:773)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.plusMinusOp(AbstrCFMLExprTransformer.java:725)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.concatOp(AbstrCFMLExprTransformer.java:690)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.decsionOp(AbstrCFMLExprTransformer.java:523)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.notOp(AbstrCFMLExprTransformer.java:508)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.andOp(AbstrCFMLExprTransformer.java:478)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.orOp(AbstrCFMLExprTransformer.java:459)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.xorOp(AbstrCFMLExprTransformer.java:441)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.eqvOp(AbstrCFMLExprTransformer.java:424)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.impOp(AbstrCFMLExprTransformer.java:407)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.conditionalOp(AbstrCFMLExprTransformer.java:361)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.assignOp(AbstrCFMLExprTransformer.java:337)
+	at lucee.transformer.cfml.expression.AbstrCFMLExprTransformer.expression(AbstrCFMLExprTransformer.java:287)
+	at lucee.transformer.cfml.script.CFMLScriptTransformer.expression(CFMLScriptTransformer.java:60)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.returnStatement(AbstrCFMLScriptTransformer.java:1742)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:232)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:216)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statements(AbstrCFMLScriptTransformer.java:199)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.block(AbstrCFMLScriptTransformer.java:2188)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:240)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.ifStatement(AbstrCFMLScriptTransformer.java:270)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:224)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:216)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statements(AbstrCFMLScriptTransformer.java:199)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.block(AbstrCFMLScriptTransformer.java:2188)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:240)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.closurePart(AbstrCFMLScriptTransformer.java:1063)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.funcStatement(AbstrCFMLScriptTransformer.java:881)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:228)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statement(AbstrCFMLScriptTransformer.java:216)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statements(AbstrCFMLScriptTransformer.java:199)
+	at lucee.transformer.cfml.script.AbstrCFMLScriptTransformer.statements(AbstrCFMLScriptTransformer.java:183)
+	at lucee.transformer.cfml.script.CFMLScriptTransformer.transform(CFMLScriptTransformer.java:54)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:633)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:363)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:371)
+	at lucee.transformer.cfml.tag.CFMLTransformer.transform(CFMLTransformer.java:303)
+	at lucee.transformer.cfml.tag.CFMLTransformer.transform(CFMLTransformer.java:150)
+	at lucee.runtime.compiler.CFMLCompilerImpl._compile(CFMLCompilerImpl.java:126)
+	at lucee.runtime.compiler.CFMLCompilerImpl.compile(CFMLCompilerImpl.java:74)
+	at lucee.runtime.PageSourceImpl._compile(PageSourceImpl.java:355)
+	at lucee.runtime.PageSourceImpl.compile(PageSourceImpl.java:322)
+	at lucee.runtime.PageSourceImpl.loadPhysical(PageSourceImpl.java:264)
+	at lucee.runtime.PageSourceImpl.loadPageThrowTemplateException(PageSourceImpl.java:182)
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:905)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:923)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:8)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"ERROR","Thread-681","12/07/2017","08:38:28","",";variable [A] doesn't exist;lucee.runtime.exp.ExpressionException: variable [A] doesn't exist
+	at lucee.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:235)
+	at functions.functions_cfm$cf.udfCall3(/functions/functions.cfm:128)
+	at functions.functions_cfm$cf.udfCall(/functions/functions.cfm)
+	at lucee.runtime.type.UDFImpl.implementation(UDFImpl.java:106)
+	at lucee.runtime.type.UDFImpl._call(UDFImpl.java:338)
+	at lucee.runtime.type.UDFImpl.call(UDFImpl.java:225)
+	at lucee.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:772)
+	at lucee.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:758)
+	at lucee.runtime.PageContextImpl.getFunction(PageContextImpl.java:1701)
+	at includes.slidingbanner_cfm$cf.call(/includes/slidingbanner.cfm:36)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:826)
+	at index_cfm$cf.call(/index.cfm:18)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:928)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:842)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2408)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2398)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2366)
+	at lucee.runtime.engine.Request.run(Request.java:34)
+"
+"INFO","access2018-startStop-1","12/07/2017","09:46:33","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","12/07/2017","09:46:33","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","12/07/2017","09:46:33","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","12/07/2017","09:50:52","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","12/07/2017","09:50:52","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","12/07/2017","09:50:52","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@19469ea2]"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@13351bd0]"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","looking for tools.jar"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","pid:5148"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-290","12/07/2017","10:14:03","Instrumentation","ExternalAgent does contain a Instrumentation instance"
+"INFO","access2018-startStop-1","12/07/2017","10:18:08","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","12/07/2017","10:18:08","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","12/07/2017","10:18:08","OSGi","add bundle:C:\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@19469ea2]"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@160c421d]"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","looking for tools.jar"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","Thread-1177","12/07/2017","10:58:04","Instrumentation","pid:4344"
+"INFO","Thread-1177","12/07/2017","10:58:05","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","Thread-1177","12/07/2017","10:58:05","Instrumentation","ExternalAgent does contain a Instrumentation instance"
