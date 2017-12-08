@@ -129,3 +129,8 @@ tr.row1,tr.row3, tr.row5, tr.row7 {
 
 tr.row2,tr.row4, tr.row6 {
     background-color: lightgoldenrodyellow;
+}
+
+.announcementContent {
+    text-align: center;
+}
