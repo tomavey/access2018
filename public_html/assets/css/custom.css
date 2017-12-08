@@ -132,5 +132,5 @@ tr.row2,tr.row4, tr.row6 {
 }
 
 .announcementContent {
-    text-align: center;
+    text-align: center !important;
 }
