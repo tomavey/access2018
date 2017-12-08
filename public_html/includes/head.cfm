@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
 
     <!---Favicons--->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
@@ -40,6 +41,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+  
 
     <title>access2018 Conference</title>
 </head>
