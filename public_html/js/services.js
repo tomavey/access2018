@@ -43,7 +43,6 @@ var accessServices = angular.module('accessServices',[])
 
    accessServices.factory("contactMessages",function($http,settings){
      var apiUrl = settings.apiHost() + "api/emaillist/";
-     console.log(apiUrl);
      var apiUrlPost = settings.apiPostAnnounce();
     return{
           submit: function(subscription,callback){
