@@ -7,7 +7,7 @@
     <meta property="og:image" content="http://access2018.com/assets/img/facebookog.png" />
     <meta property="og:url" content="http://access2018.com" />
     <meta property="og:title" content="Access2018 | Leaders accessing one another" />
-    <meta property="og:description" content="A conference for people doing ministry in churches built around the concept of cohorts that provide access and contact information." />
+    <meta property="og:description" content="A conference for people doing church ministry in churches who value access with others doing similar ministry." />
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
