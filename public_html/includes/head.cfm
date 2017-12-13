@@ -3,12 +3,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!---Facebook--->
     <meta property="og:type" content="website" />
     <meta property="fb:app_id" content="130372054325284" />
     <meta property="og:image" content="http://access2018.com/assets/img/facebookog.png" />
     <meta property="og:url" content="http://access2018.com" />
     <meta property="og:title" content="Access2018 | Leaders accessing one another" />
     <meta property="og:description" content="A conference for people doing church ministry in churches who value access with others doing similar ministry." />
+
+    <!---Twitter--->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@charischurches" />
+    <meta name="twitter:title" content="Access2018" />
+    <meta name="twitter:description" content="A conference where leaders access leaders." />
+    <meta name="twitter:image" content="http://access2018.com/assets/img/twitterimage.png" />
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
