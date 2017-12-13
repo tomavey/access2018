@@ -1,4 +1,14 @@
 <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://access.com/assets/img/facebookog.png" />
+    <meta property="og:url" content="http://access.com" />
+    <meta property="og:title" content="Access2018 | Leaders accessing one another" />
+    <meta property="og:description" content="A conference for people doing ministry in churches built around the concept of cohorts that provide access and contact information." />
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aviators - byaviators.com">
