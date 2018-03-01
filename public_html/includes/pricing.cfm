@@ -31,7 +31,7 @@
 <!---                                          <li>Parking place</li>
 --->
                                             </ul>
-                                            <a href="http://charisfellowship.us/access2017" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="http://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
 
 <!---                                            <a class="btn btn-buy">Buy now</a>
 --->
@@ -51,7 +51,7 @@
                                                 <li>Parking place</li>
 --->
                                             </ul>
-                                            <a href="http://charisfellowship.us/access2017" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="http://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
 <!---
                                             <a class="btn btn-buy">Buy now</a>
 --->
@@ -76,7 +76,7 @@
                                                 <li>After party with speakers</li>
 --->
                                             </ul>
-                                            <a href="http://charisfellowship.us/access2017" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="http://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
                                         </div><!-- /.content -->
                                     </div><!-- /.circle -->
                                 </div><!-- /.span4 -->
