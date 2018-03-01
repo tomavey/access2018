@@ -2,7 +2,7 @@
     <div class="pricing">
         <div class="pricing-inner">
             <div class="container has-options">
-                <h2><a href="http://www.fgbc.org/conference/register">Register HERE</a></h2>
+                <h2><a href="http://charisfellowship.us/conference/register">Register HERE</a></h2>
                 <h4>Lots of great options.</h4>
 
                 <ul class="nav nav-options pull-right">
@@ -25,13 +25,13 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content">
-                                            <p class="price">105<sup>$</sup></p>
+                                            <p class="price">95<sup>$</sup></p>
                                             <ul class="span3">
                                                 <li>Registration for a single.</li>
 <!---                                          <li>Parking place</li>
 --->
                                             </ul>
-                                            <a href="http://www.fgbc.org/access2017" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="http://charisfellowship.us/access2017" class="btn btn-buy" target="_blank">Register now</a>
 
 <!---                                            <a class="btn btn-buy">Buy now</a>
 --->
@@ -42,7 +42,7 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content best-offer">
-                                            <p class="price">140<sup>$</sup></p>
+                                            <p class="price">150<sup>$</sup></p>
 
                                             <ul class="span3">
                                                 <li>Registration for a couple</li>
@@ -51,7 +51,7 @@
                                                 <li>Parking place</li>
 --->
                                             </ul>
-                                            <a href="http://www.fgbc.org/access2017" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="http://charisfellowship.us/access2017" class="btn btn-buy" target="_blank">Register now</a>
 <!---
                                             <a class="btn btn-buy">Buy now</a>
 --->
@@ -66,7 +66,7 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content">
-                                            <p class="price">75<sup>$</sup></p>
+                                            <p class="price">65<sup>$</sup></p>
 
                                             <ul class="span3">
                                                 <li>each for groups of 5 or more.</li>
@@ -76,7 +76,7 @@
                                                 <li>After party with speakers</li>
 --->
                                             </ul>
-                                            <a href="http://www.fgbc.org/access2017" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="http://charisfellowship.us/access2017" class="btn btn-buy" target="_blank">Register now</a>
                                         </div><!-- /.content -->
                                     </div><!-- /.circle -->
                                 </div><!-- /.span4 -->

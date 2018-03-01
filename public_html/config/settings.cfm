@@ -3,13 +3,13 @@
 settings = {};
 settings.scheduleopen = false;
 settings.featuresopen = true;
-settings.registrationopen = false;
+settings.registrationopen = true;
 settings.parallaxFirstopen = true;
 settings.parallaxSecondopen = true;
 settings.parallaxThirdopen = true;
 settings.childcareopen = false;
 settings.whycomeopen = true;
-settings.pricingopen = false;
+settings.pricingopen = true;
 settings.exhibitorsopen = false;
 settings.testimonialsopen = false;
 settings.galleryopen = false;
