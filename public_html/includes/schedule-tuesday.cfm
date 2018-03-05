@@ -16,7 +16,7 @@
                         <div class="col-sm-7">
                             <p class="name">Breakfast</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by Grace Connect</p>
+                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
                             <p class="time"><span class="time-start">7:30</span> - 9:00</p>
                         </div><!-- /.col-md-7 -->
 
@@ -24,10 +24,10 @@
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>Grace Connect</h4>
+                                <h4>Charis Fellowship Ministry (TBD)</h4>
 
                                 <p>
-                                <a href="http://www.graceconnect.us">GraceConnect</a> is a ministry of the Brethren Missionary Herald Company, which has a mission of building bridges of communication between the people and churches of the Fellowship of Grace Brethren Churches. <cfoutput>#ticketRequired()#</cfoutput>
+                                <a href="http://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -50,7 +50,7 @@
                             <p class="name">Celebration</p>
                             <p class="company">Main Auditorium</p>
                             <p class="talk-title">Worship-Celebrate-Access</p>
-                            <p class="time"><span class="time-start">9:30</span> - 10:45</p>
+                            <p class="time"><span class="time-start">9:30</span> - 10:30</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
@@ -59,7 +59,7 @@
                             <div class="about">
                                 <h4>Celebration</h4>
                                 <p>
-                                Great Music, Great Speakers all about our GREAT GOD! Mike Yoder is the main speaker.
+                                Great Music, Great Speakers all about our GREAT GOD!
                                 <cfif livestreamIsOpen()> 
                                     <a href="https://livestream.com/access2017/access2017">Watch the live stream here</a>
                                 </cfif>
@@ -86,7 +86,7 @@
                             <p class="name">A-Cohorts</p>
                             <p class="company">Various Locations</p>
                             <p class="talk-title">Forming Access Relationships</p>
-                            <p class="time"><span class="time-start">11:15</span> - 12:15</p>
+                            <p class="time"><span class="time-start">11:00</span> - 12:15</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
@@ -96,7 +96,7 @@
                                 <h4>A- Cohorts</h4>
 
                                 <p>
-                                Access Relationships Start Here! Each attendee can participate in two cohorts. A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href="http://www.fgbc.org/index.cfm/conference.courses/list/cohort">HERE.</a>
+                                Access Relationships Start Here! Each attendee can participate in two cohorts. Each Tuesday cohort meets in the morning and in the afternoon. <cfoutput>#cohortsListReady()#</cfoutput> 
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -118,8 +118,8 @@
                         <div class="col-sm-7">
                             <p class="name">Lunch</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by the FGBC</p>
-                            <p class="time"><span class="time-start">12:30</span> - 2:30</p>
+                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
+                            <p class="time"><span class="time-start">12:30</span> - 2:00</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
@@ -127,11 +127,11 @@
                         <div class="col-sm-3">
                         <cfoutput>
                             <div class="about">
-                                <h4>Welcome to #getName('c')#</h4>
+                                <h4>Charis Fellowship Ministry (TBD)</h4>
 
                                 <p>
-                                What is #getName()#? Who is the FGBC? How does this movement work? Everyone is encouraged to join us for lunch. <cfoutput>#ticketRequired()#</cfoutput>
-                                </p>                                
+                                <a href="http://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
+                                </p>
                             </div><!-- /.about -->
                         </cfoutput>    
                         </div><!-- /.col-md-3 -->
@@ -154,7 +154,7 @@
                             <p class="name">A-Cohorts</p>
                             <p class="company">Various Locations</p>
                             <p class="talk-title">Forming Access Relationships</p>
-                            <p class="time"><span class="time-start">3:00</span> - 5:00</p>
+                            <p class="time"><span class="time-start">2:30</span> - 3:30</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
@@ -164,7 +164,7 @@
                                 <h4>A-Cohorts</h4>
 
                                 <p>
-                                Access Relationships Start Here! Each attendee can participate in two cohorts. A-Cohorts meet Tuesday morning, afternoon and Wednesday morning. Use the link at the top of this page to see the list or click <a href="http://www.fgbc.org/index.cfm/conference.courses/list/cohort">HERE.</a>
+                                Access Relationships Start Here! Each attendee can participate in two cohorts. Each of today's Cohorts will continue this afternoon. <cfoutput>#cohortsListReady()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -186,7 +186,7 @@
                         <div class="col-sm-7">
                             <p class="name">Dinner</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by Grace College and Seminary</p>
+                            <p class="talk-title">Sponsored by Charis Fellowship Ministry</p>
                             <p class="time"><span class="time-start">5:15</span> - 6:30</p>
                         </div><!-- /.col-md-7 -->
 
@@ -194,10 +194,10 @@
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>Grace College and Seminary</h4>
+                                <h4>Charis Fellowship Ministry (TBD)</h4>
 
                                 <p>
-                                <a href='http://www.grace.edu' target='_new'>Grace College & Seminary</a> is an evangelical Christian community of higher education which applies biblical values in strengthening character, sharpening competence and preparing for service. <cfoutput>#ticketRequired()#</cfoutput>
+                                <a href="http://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -230,7 +230,10 @@
                                 <h4>Celebration</h4>
 
                                 <p>
-                                Great Music, Great Speakers all about our GREAT GOD! Jeff Bogue is the main speaker. <a href="https://livestream.com/access2017/access2017">Watch the live stream here</a>
+                                Great Music, Great Speakers all about our GREAT GOD! Jeff Bogue is the main speaker. 
+                                <cfif livestreamIsOpen()> 
+                                    <a href="https://livestream.com/access2017/access2017">Watch the live stream here</a>
+                                </cfif>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->

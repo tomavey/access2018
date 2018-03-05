@@ -1,7 +1,7 @@
 <cfscript>
 
 settings = {};
-settings.scheduleopen = false;
+settings.scheduleopen = true;
 settings.featuresopen = true;
 settings.registrationopen = true;
 settings.parallaxFirstopen = true;
@@ -19,6 +19,7 @@ settings.subscribeopen = true;
 settings.socialopen = true;
 settings.mapopen = true;
 settings.cohortsopen = false;
+settings.cohortsListReady = false;
 settings.dsn = "fgbc_main_3";
 settings.event = "visionconference2018";
 settings.sendContactMessagesTo = "tomavey@fgbc.org";
@@ -28,6 +29,7 @@ settings.showVideo = false;
 settings.vimeoid = "208650222";
 settings.debugon = false;
 settings.mobileopen = false;
+settings.mealticketsopen = false;
 settings.livestreamopen = false;
 settings.staytunedopen = true;
 settings.name = "access2018";

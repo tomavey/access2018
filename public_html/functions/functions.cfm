@@ -297,7 +297,19 @@
 </cffunction>
 
 <cffunction name="ticketRequired">
-    <cfreturn "<a href='http://www.fgbc.org/conference.-register/selectregtype' target='_new'> Ticket Required</a>">
+    <cfif settings.mealticketsopen>
+        <cfreturn "<a href='http://charisfellowship.us/access2018/selectregtype' target='_new'> Ticket Required</a>">
+    <cfelse>
+        <cfreturn "Tickets Required (not available yet)">
+    </cfif>    
+</cffunction>
+
+<cffunction name="cohortsListReady">
+    <cfif settings.cohortsListReady>
+        <cfreturn "Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/index.cfm/conference.courses/list/cohort'>HERE.</a>">
+    <cfelse>
+        <cfreturn "The list of cohorts is coming soon.">
+    </cfif>
 </cffunction>
 
 <cffunction name="isMobile">

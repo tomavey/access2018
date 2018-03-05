@@ -8,9 +8,9 @@
 
         <div class="speakers">
             <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab-1" data-toggle="tab">Tuesday, July 25</a></li>
-                <li><a href="#tab-2" data-toggle="tab">Wednesday, July 26</a></li>
-                <li><a href="#tab-3" data-toggle="tab">Thursday, July 27</a></li>
+                <li class="active"><a href="#tab-1" data-toggle="tab">Tuesday, July 24</a></li>
+                <li><a href="#tab-2" data-toggle="tab">Wednesday, July 25</a></li>
+                <li><a href="#tab-3" data-toggle="tab">Thursday, July 26</a></li>
             </ul>
 
             <div class="tab-content" ng-show="!isEmpty(scheduleItems)">
