@@ -16,7 +16,7 @@
                         <a href="https://vimeo.com/channels/access2018" class="social-icon"><img src="assets/icons/icon-vimeo.png" alt="Vimeo"></a>
                     </cfif>    
                     <cfif exhibitorsIsOpen()>
-                        <a href="http://charisfellowship.us/conference.exhibits/info"><img src="assets/icons/icon-exhibitors.png" alt="Exhibitors"/></a>
+                        <a href="http://charisfellowship.us/conference/exhibits/info"><img src="assets/icons/icon-exhibitors.png" alt="Exhibitors"/></a>
                     </cfif>
                 </div><!-- /.icons -->
             </div><!-- /.row -->
