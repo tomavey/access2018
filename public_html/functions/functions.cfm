@@ -56,7 +56,6 @@
         return isOpen("mapopen");
     };
 
-
     public function exhibitorsIsOpen(){
         return isOpen("exhibitorsopen");
     };
@@ -111,6 +110,18 @@
 
     public function mobileIsOpen(){
         return isOpen("mobileopen");
+    };
+
+    public function twitterIsOpen(){
+        return isOpen("twitteropen");
+    };
+
+    public function facebookIsOpen(){
+        return isOpen("twitteropen");
+    };
+
+    public function vimeoIsOpen(){
+        return isOpen("twitteropen");
     };
 
     public function livestreamIsOpen(){

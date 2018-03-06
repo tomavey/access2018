@@ -10,7 +10,7 @@ settings.parallaxThirdopen = true;
 settings.childcareopen = false;
 settings.whycomeopen = true;
 settings.pricingopen = true;
-settings.exhibitorsopen = false;
+settings.exhibitorsopen = true;
 settings.testimonialsopen = false;
 settings.galleryopen = false;
 settings.partnersopen = false;
@@ -33,4 +33,8 @@ settings.mealticketsopen = false;
 settings.livestreamopen = false;
 settings.staytunedopen = true;
 settings.name = "access2018";
+settings.twitteropen = "false";
+settings.facebookopen = "false";
+settings.twitteropen = "false";
+settings.vimeoopen = "false";
 </cfscript>
