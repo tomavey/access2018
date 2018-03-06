@@ -118,7 +118,10 @@ h4 {
 
 </style>
 
+<cfinclude template="/config/settings.cfm">
+
 <cfinclude template="/functions/functions.cfm">
+
 
 </head>
 
@@ -127,7 +130,7 @@ h4 {
 <div id="nav-schedule" class="speakers-wrapper" ng-controller="scheduleController">
 
     <div class="container">
-        <h2>Access2017 Schedule</h2>
+        <h2>Access2018 Schedule</h2>
         <h4>Connect with those who need what you know and know what you need!</h4>
 
         <div class="speakers">
@@ -137,7 +140,7 @@ h4 {
                 <div class="eachday">
 
                     <div class="dayheader">
-                        Tuesday, July 25
+                        Tuesday, July 24
                     </div>
 
                     <cfinclude template="/includes/schedule-tuesday.cfm">
@@ -147,7 +150,7 @@ h4 {
                 <div class="eachday">
 
                     <div class="dayheader">
-                        Wednesday, July 26
+                        Wednesday, July 25
                     </div>
 
                     <cfinclude template="/includes/schedule-wednesday.cfm">
@@ -157,7 +160,7 @@ h4 {
                 <div class="eachday">
 
                     <div class="dayheader">
-                        Thursday, July 27
+                        Thursday, July 26
                     </div>
 
                     <cfinclude template="/includes/schedule-thursday.cfm">

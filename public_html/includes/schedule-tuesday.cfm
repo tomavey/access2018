@@ -8,7 +8,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/meal-1.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/meal-8.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -41,7 +41,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/worship-1.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/worship-9.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -77,13 +77,13 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/cohort-1.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/cohort-10.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
 
                         <div class="col-sm-7">
-                            <p class="name">A-Cohorts</p>
+                            <p class="name">Tuesday Cohorts</p>
                             <p class="company">Various Locations</p>
                             <p class="talk-title">Forming Access Relationships</p>
                             <p class="time"><span class="time-start">11:00</span> - 12:15</p>
@@ -93,7 +93,7 @@
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>A- Cohorts</h4>
+                                <h4>Tuesday Cohorts</h4>
 
                                 <p>
                                 Access Relationships Start Here! Each attendee can participate in two cohorts. Each Tuesday cohort meets in the morning and in the afternoon. <cfoutput>#cohortsListReady()#</cfoutput> 
@@ -145,13 +145,13 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/cohort-2.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/cohort-11.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
 
                         <div class="col-sm-7">
-                            <p class="name">A-Cohorts</p>
+                            <p class="name">Tuesday Cohorts</p>
                             <p class="company">Various Locations</p>
                             <p class="talk-title">Forming Access Relationships</p>
                             <p class="time"><span class="time-start">2:30</span> - 3:30</p>
@@ -161,7 +161,7 @@
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>A-Cohorts</h4>
+                                <h4>Tuesday Cohorts</h4>
 
                                 <p>
                                 Access Relationships Start Here! Each attendee can participate in two cohorts. Each of today's Cohorts will continue this afternoon. <cfoutput>#cohortsListReady()#</cfoutput>
@@ -178,7 +178,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/meal-3.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/meal-10.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -186,7 +186,7 @@
                         <div class="col-sm-7">
                             <p class="name">Dinner</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by Charis Fellowship Ministry</p>
+                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
                             <p class="time"><span class="time-start">5:15</span> - 6:30</p>
                         </div><!-- /.col-md-7 -->
 
@@ -211,7 +211,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/worship-2.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/worship-8.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -248,7 +248,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/latenight.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/latenight3.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -267,7 +267,7 @@
                                 <h4>Late Night</h4>
 
                                 <p>
-                                Meet in the lobby for coffee, desserts, coffee-shop music, ice-cream, games and much more.
+                                Details coming soon!
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->

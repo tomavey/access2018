@@ -12,7 +12,7 @@
                                 <div class="col-sm-5">
                                     <div class="image-box">
                                         <div class="image">
-                                            <img src="assets/pictures/4.jpg" alt="">
+                                            <img src="assets/pictures/1.jpg" alt="">
                                         </div>
                                     </div>
                                 </div><!-- /.image-box -->

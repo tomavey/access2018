@@ -8,7 +8,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/meal-1.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/meal-13.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -41,7 +41,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/worship-1.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/worship-7.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -77,7 +77,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/cohort-1.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/cohort-10.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -111,7 +111,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/meal-2.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/meal-9.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -146,7 +146,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/cohort-2.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/cohort-11.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -179,7 +179,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/meal-3.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/meal-9.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -212,7 +212,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/worship-2.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/worship-7.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
@@ -249,7 +249,7 @@
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/latenight.jpg" class="img-circle inner-border">
+                                    <img src="assets/pictures/latenight3.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
