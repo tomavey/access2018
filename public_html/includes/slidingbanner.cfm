@@ -6,7 +6,7 @@
                 <ul class="unstyled">
                     <li class="first-slide" data-transition="fade">
                         <div class="sliderbackground">
-                        <img class="sliderimage" src="assets/pictures/background-conference-10.jpg">
+                            <img class="sliderimage" src="assets/pictures/background-conference-10.jpg">
                         </div>
 
                         <div class="caption sfr caption-main" data-x="center" data-y="200" data-speed="900" data-start="0" data-easing="easeOutBack" fullwidthcentering="on">
