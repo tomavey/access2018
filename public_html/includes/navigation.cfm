@@ -31,7 +31,7 @@
                         <cfelse>
                         </cfif>    
                         <cfif staytunedIsOpen()>
-                            <li>Stay tuned! Schedule, cohorts etc coming soon.</li>
+                            <li>Stay tuned! Meals, cohorts etc coming soon.</li>
                         <cfelse>
                         <li><a href="#nav-why">About Access2018</a></li>
                         <li class="dropdown">
