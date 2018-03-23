@@ -106,6 +106,8 @@
 <cfif showDebug()>
     <cfinclude template="/includes/debug.cfm">
 </cfif>
-
+<cfif isDefined("url.debug")>
+    <cfdump var="#settings#">
+</cfif>
 </body>
 </html>
