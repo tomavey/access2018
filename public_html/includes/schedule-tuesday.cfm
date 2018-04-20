@@ -16,7 +16,7 @@
                         <div class="col-sm-7">
                             <p class="name">Breakfast</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
+                            <p class="talk-title">Sponsored by Assist Church eXpansion</p>
                             <p class="time"><span class="time-start">7:30</span> - 9:00</p>
                         </div><!-- /.col-md-7 -->
 
@@ -24,10 +24,9 @@
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>Charis Fellowship Ministry (TBD)</h4>
+                                <h4>Assist Church eXpansion</h4>
 
-                                <p>
-                                <a href="http://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
+                                <p>Thanks for praying as <a href="http://assistcx.org/">AssistCX</a> completes its first year. Join us for breakfast and an update on all God is doing through Assist Church eXpansion for Charis legacy church multiplication.<cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -118,7 +117,7 @@
                         <div class="col-sm-7">
                             <p class="name">Lunch</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
+                            <p class="talk-title">Sponsored by the Association of Grace Brethren Ministers</p>
                             <p class="time"><span class="time-start">12:30</span> - 2:00</p>
                         </div><!-- /.col-md-7 -->
 
@@ -127,10 +126,10 @@
                         <div class="col-sm-3">
                         <cfoutput>
                             <div class="about">
-                                <h4>Charis Fellowship Ministry (TBD)</h4>
+                                <h4>Association of Grace Brethren Ministers</h4>
 
                                 <p>
-                                <a href="http://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
+                                <a href="http://agbm.org/">The Association of Grace Brethren ministers</a> wants to encourage and honor our pastors and their wives. Ticket prices have been reduced for our members and their wives as a way to thank you for all you do. If you purchase this ticket you do not need to purchase an additional ticket for your wife.<cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </cfoutput>    
