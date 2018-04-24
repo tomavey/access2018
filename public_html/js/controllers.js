@@ -30,7 +30,7 @@ accessControllers.controller('cohortsController', function($scope,courses){
     })
     $scope.modalheader = "Access2018 Cohorts";
     remodalSubmit = function(message){
-        window.open("http://www.fgbc.org/selectcohorts");
+        window.open("https://charisfellowship.us/selectcohorts");
     }
 })
 
@@ -40,7 +40,7 @@ accessControllers.controller('mealsController', function($scope,meals){
     })
     $scope.modalheader = "Access2018 Meals";
     remodalSubmit = function(message){
-        window.open("http://www.fgbc.org/conference.-register/selectregtype");
+        window.open("https://charisfellowship.us/conference/register/selectregtype");
     }
 })
 

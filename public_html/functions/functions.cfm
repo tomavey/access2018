@@ -233,7 +233,7 @@
     SELECT id, title, descriptionlong, subtype
     FROM equip_courses
     WHERE type="Cohort" 
-    AND event="visionconference2017"
+    AND event="#settings.event#"
     AND deletedAt IS NULL
     ORDER BY title
 </cfquery>
@@ -243,13 +243,13 @@
 <cffunction name="getSubtype">
 <cfargument name="subtype" required="true" type="string">
     <cfif subtype is "A">
-        <cfreturn "A-Cohorts: Tuesday morning and afternoon and Wednesday Morning">
+        <cfreturn "Tuesday Cohorts: 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
     </cfif>
     <cfif subtype is "B">
-        <cfreturn "B-Cohorts: Wednesday afternoon and Thursday morning and afternoon">
+        <cfreturn "Wednesday Cohorts: 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
     </cfif>
     <cfif subtype is "C">
-        <cfreturn "A&B-Cohorts: Tue/Wed AM and repeated on Wed PM/Thu">
+        <cfreturn "">
     </cfif>
 <cfreturn "NA">
 </cffunction>
@@ -257,17 +257,16 @@
 <cffunction name="getSubtypeDesc">
 <cfargument name="subtype" required="true" type="string">
     <cfif subtype is "A">
-        <cfreturn "This cohort meets on Tuesday and Wednesday: Tuesday morning from 11:15 - 12:15, afternoon from 3:00 - 5:00 and Wednesday morning from 9:30 - 11:30">
+        <cfreturn "This cohort meets on Tuesday from 11:00 - 12:15, afternoon from 2:30 - 3:30">
     </cfif>
     <cfif subtype is "B">
-        <cfreturn "This cohort meets on Wednesday and Thursday: Wednesday from 2:00 - 4:00, Thursday from 9:30 - 11:30 and 2:00 - 4:00">
+        <cfreturn "This cohort meets on Wednesday from 11:00 - 12:15, afternoon from 2:30 - 3:30">
     </cfif>
     <cfif subtype is "C">
-        <cfreturn "Signup for this cohort is very high so we are offering it twice.<br/><br/>You can choose either the Tuesday/Wednesday (A) or the Wednesday/Thursday (B).<br/><br/>Specific times are (choose A or B):<ul style='list-style:none'><li>A = Tuesday from 11:15-12:15 and 3:00 - 5:00 and Wednesday from 9:30 - 11:30;</li><li>B = Wednesday from 3:00 - 5:00, Thursday from 9:30 - 11:30 and 3:00 - 5:00.</li></ul>">
+        <cfreturn "">
     </cfif>
 <cfreturn "NA">
 </cffunction>
-
 
 <cffunction name="getMeals">
 <cfset var data = "">
@@ -275,7 +274,7 @@
     SELECT id, buttondescription, description, cost
     FROM equip_options
     WHERE type="Meal" 
-    AND event="visionconference2017"
+    AND event="#settings.event#"
     AND deletedAt IS NULL
     ORDER BY sortorder
 </cfquery>
@@ -288,7 +287,7 @@
     SELECT id, buttondescription, description, cost
     FROM equip_options
     WHERE type="Other" 
-    AND event="visionconference2017"
+    AND event="#settings.event#"
     AND deletedAt IS NULL
     ORDER BY sortorder
 </cfquery>
@@ -300,7 +299,7 @@
 <cfquery dataSource="#settings.dsn#" name="data">
     SELECT id, fname, lname, pedigree, bioweb, email, picThumb
     FROM equip_instructors
-    WHERE event="visionconference2017"
+    WHERE event="#settings.event#"
     AND deletedAt IS NULL
     ORDER BY lname
 </cfquery>

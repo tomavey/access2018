@@ -4,12 +4,9 @@
      <p>Cohorts are peer learning groups focused around various areas of ministries. Participants will have lots of time to talk about what is working, what is not, ask questions, discuss best practices and even work through issues together. Each cohort will be guided by trained facilitators.<br/> People who are registered for Access2017 should select two cohorts. </p>
     <p>Cohorts will happen in two groups and each cohort will extend through the times indicated below. Based on signups so far, we have scheduled cohorts in two blocks (A&B): 
 			<br/>
-			A-Cohorts will happen on Tuesday and Wednesday morning.
+			Each Tuesday Cohort will happen from 11:00 am - 12:15 pm AND 2:30 - 3:30 pm. 
 			<br/>
-			B-Cohorts will happen on Wednesday afternoon and Thursday.
-      </p>
-      <p>
-			Signup for Leadership Development, Descipleship and Next Gen Ministry are very high so we are repeating each of these.
+			Each Wednesday Cohort will happen from 11:00 am - 12:15 pm AND 2:30 - 3:30 pm. 
       </p>
     <cfset cohorts = getCohorts()>
     <cfoutput query="cohorts">
@@ -20,7 +17,7 @@
         </cfif>
         <p>#descriptionlong#</p>
         <p>#getSubtypeDesc(subtype)#
-        <p><a href='http://www.fgbc.org/selectcohorts' class='pull-right' target="_new">Sign Up</a></p>
+        <p><a href='https://www.charisfellowship.us/selectCohorts' class='pull-right' target="_new">Sign Up</a></p>
       </div>
     </cfoutput>
     <br>
