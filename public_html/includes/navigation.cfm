@@ -33,7 +33,9 @@
                         <cfif staytunedIsOpen()>
                             <li>Stay tuned! Meals, cohorts etc coming soon.</li>
                         <cfelse>
-                        <li><a href="#nav-why">About Access2018</a></li>
+                        <!---
+                            <li><a href="#nav-why">About Access2018</a></li>
+                        --->
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle">More <b class="caret"></b></a>
                             <ul class="dropdown-menu">
