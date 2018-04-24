@@ -8,7 +8,7 @@
       <div class="well" style="overflow:auto">
         <h3><cfif len(pedigree)>#pedigree# </cfif>#fname# #lname#</h3>
         <cfif len(picThumb)>
-        <p style="float:left; margin-right:20px"><img src="http://www.fgbc.org/images/conference/instructors/#picThumb#" /></p>
+        <p style="float:left; margin-right:20px"><img src="https://charisfellowship.us/images/conference/instructors/#picThumb#" /></p>
         </cfif>
         <p>#bioWeb#</p>
       </div>

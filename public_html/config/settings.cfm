@@ -22,7 +22,7 @@ settings.cohortsopen = true;
 settings.cohortsListReady = false;
 settings.dsn = "fgbc_main_3";
 settings.event = "visionconference2018";
-settings.sendContactMessagesTo = "tomavey@fgbc.org";
+settings.sendContactMessagesTo = "tomavey@charisfellowship.us";
 settings.showSlide2 = false;
 settings.showSlide3 = false;
 settings.showVideo = true;
@@ -30,8 +30,15 @@ settings.vimeoid = "258807778/";
 settings.debugon = false;
 settings.mobileopen = false;
 settings.mealticketsopen = false;
+
+<!---Turn on off menu items--->
+settings.mealsOpen = true;
+settings.excursionsOpen = false;
+settings.speakersOpen = true;
+<!----------------------------->
+
 settings.livestreamopen = false;
-settings.staytunedopen = true;
+settings.staytunedopen = false;
 settings.name = "access2018";
 settings.twitteropen = "false";
 settings.facebookopen = "false";

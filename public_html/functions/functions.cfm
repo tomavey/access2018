@@ -14,7 +14,7 @@
 <cfscript>
 
     public function isOpen(section){
-        if (isDefined("params.clear")){ session.opensections = {} };
+        if (isDefined("params.clear") || isDefined("params.clearsession")){ session.opensections = {} };
         if (
             isDefined("params[section]") || 
             isDefined("params.openall") || 
@@ -308,7 +308,7 @@
 
 <cffunction name="ticketRequired">
     <cfif settings.mealticketsopen>
-        <cfreturn "<a href='http://charisfellowship.us/access2018/selectregtype' target='_new'> Ticket Required</a>">
+        <cfreturn "<a href='https://charisfellowship.us/access2018/selectregtype' target='_new'> Ticket Required</a>">
     <cfelse>
         <cfreturn "Tickets Required (not available yet)">
     </cfif>    
@@ -316,7 +316,7 @@
 
 <cffunction name="cohortsListReady">
     <cfif settings.cohortsListReady>
-        <cfreturn "Use the link at the top of this page to see the list or click <a href='http://www.fgbc.org/index.cfm/conference.courses/list/cohort'>HERE.</a>">
+        <cfreturn "Use the link at the top of this page to see the list or click <a href='http:/charisfellowship.us/conference/courses/list/cohort'>HERE.</a>">
     <cfelse>
         <cfreturn "The list of cohorts is coming soon.">
     </cfif>

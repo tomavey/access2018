@@ -4,7 +4,7 @@
     <h1>#getName('c')# Excursions</h1>
     </cfoutput>
     <cfset excursions = getExcursions()>
-    <div class="text-center"><p>Northwest Ohio is a favorite vacation location for folks from the Midwest with nearby Port Clinton and Cedar Point. We are pleased to offer the following pre and post-Access2017 excursion options.</p><p>Purchase your tickets in the <a href="http://www.fgbc.org/conference.-register/selectregtype" target="_new">registration center</a>.</p>
+    <div class="text-center"><p>Northwest Ohio is a favorite vacation location for folks from the Midwest with nearby Port Clinton and Cedar Point. We are pleased to offer the following pre and post-Access2017 excursion options.</p><p>Purchase your tickets in the <a href="https://charisfellowship.us/conference/register/selectregtype" target="_new">registration center</a>.</p>
     </div>
     <cfoutput query="excursions">
       <div class="well">

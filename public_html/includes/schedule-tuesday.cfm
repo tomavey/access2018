@@ -196,7 +196,7 @@
                                 <h4>Charis Fellowship Ministry (TBD)</h4>
 
                                 <p>
-                                <a href="http://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
+                                <a href="https://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->

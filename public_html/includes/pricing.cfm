@@ -2,7 +2,7 @@
     <div class="pricing">
         <div class="pricing-inner">
             <div class="container has-options">
-                <h2><a href="http://charisfellowship.us/conference/register">Register HERE</a></h2>
+                <h2><a href="https://charisfellowship.us/conference/register">Register HERE</a></h2>
                 <h4>Lots of great options.</h4>
 
                 <ul class="nav nav-options pull-right">
@@ -31,7 +31,7 @@
 <!---                                          <li>Parking place</li>
 --->
                                             </ul>
-                                            <a href="http://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="https://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
 
 <!---                                            <a class="btn btn-buy">Buy now</a>
 --->
@@ -51,7 +51,7 @@
                                                 <li>Parking place</li>
 --->
                                             </ul>
-                                            <a href="http://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="https://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
 <!---
                                             <a class="btn btn-buy">Buy now</a>
 --->
@@ -76,7 +76,7 @@
                                                 <li>After party with speakers</li>
 --->
                                             </ul>
-                                            <a href="http://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
+                                            <a href="https://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
                                         </div><!-- /.content -->
                                     </div><!-- /.circle -->
                                 </div><!-- /.span4 -->

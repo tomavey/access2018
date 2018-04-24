@@ -40,15 +40,21 @@
                                 <cfif childcareIsOpen()>
                                     <li><a href="#nav-childcare">Childcare</a></li>
                                 </cfif>
+                                <cfif settings.excursionsOpen>
                                 <li>
                                     <a data-remodal-target="modal-excursions" class="cohortnavlink submenu">Excursions</a>
                                 </li>
+                                </cfif>
+                                <cfif settings.mealsOpen>
                                 <li>
                                     <a data-remodal-target="modal-meals" class="cohortnavlink submenu">Meals</a>
                                 </li>
+                                </cfif>
+                                <cfif settings.speakersOpen>
                                 <li>
                                     <a data-remodal-target="modal-speakers" class="cohortnavlink submenu">Speakers</a>
                                 </li>
+                                </cfif>
                                 <cfif contactIsOpen()>
                                     <li><a href="#nav-contact">Contact</a></li>
                                 </cfif>

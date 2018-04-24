@@ -357,7 +357,7 @@ accessServices.constant("settings",{
         }
         else
         {
-          return "http://charisfellowship.us/api/courses"
+          return "https://charisfellowship.us/api/courses"
         }
       },
       apiGetMeals: function(){
@@ -366,7 +366,7 @@ accessServices.constant("settings",{
         }
         else
         {
-          return "http://charisfellowship.us/api/meals"
+          return "https://charisfellowship.us/api/meals"
         }
       },
 })
