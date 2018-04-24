@@ -16,7 +16,7 @@
                         <div class="col-sm-7">
                             <p class="name">Breakfast</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
+                            <p class="talk-title">Sponsored by CE National</p>
                             <p class="time"><span class="time-start">7:30</span> - 9:00</p>
                         </div><!-- /.col-md-7 -->
 
@@ -24,10 +24,10 @@
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>Charis Fellowship Ministry (TBD)</h4>
+                                <h4>CE National</h4>
 
                                 <p>
-                                <a href="https://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
+                                Join us for breakfast and hear and see reports of how God has been working through ministries like the Urban Hope Training Center—in both Philadelphia and Los Angeles, Momentum youth conference, Operation Barnabas, Urban Plunge ministry trips and more. There will also be a time during this breakfast for the annual <a href="https://www.cenational.org/" target="_new">CE National</a> Corporation Meeting. You won’t want to miss out! (limited quanity subsidized tickets are available). <cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -59,7 +59,7 @@
                             <div class="about">
                                 <h4>Celebration</h4>
                                 <p>
-                                Great Music, Great Speakers all about our GREAT GOD!
+                                    Great Music, Great Speakers all about our GREAT GOD!<cfoutput>#linkToOpenSpeakersModal()#</cfoutput>
                                 <cfif livestreamIsOpen()> 
                                     <a href="https://livestream.com/access2017/access2017">Watch the live stream here</a>
                                 </cfif>

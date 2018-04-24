@@ -19,7 +19,7 @@ settings.subscribeopen = false;
 settings.socialopen = true;
 settings.mapopen = true;
 settings.cohortsopen = true;
-settings.cohortsListReady = false;
+settings.cohortsListReady = true;
 settings.dsn = "fgbc_main_3";
 settings.event = "visionconference2018";
 settings.sendContactMessagesTo = "tomavey@charisfellowship.us";
@@ -29,7 +29,7 @@ settings.showVideo = true;
 settings.vimeoid = "258807778/";
 settings.debugon = false;
 settings.mobileopen = false;
-settings.mealticketsopen = false;
+settings.mealticketsopen = true;
 
 <!---Turn on off menu items--->
 settings.mealsOpen = true;

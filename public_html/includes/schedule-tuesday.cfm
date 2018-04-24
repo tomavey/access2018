@@ -58,7 +58,7 @@
                             <div class="about">
                                 <h4>Celebration</h4>
                                 <p>
-                                Great Music, Great Speakers all about our GREAT GOD!
+                                    Great Music, Great Speakers all about our GREAT GOD!<cfoutput>#linkToOpenSpeakersModal()#</cfoutput>
                                 <cfif livestreamIsOpen()> 
                                     <a href="https://livestream.com/access2017/access2017">Watch the live stream here</a>
                                 </cfif>
@@ -185,18 +185,18 @@
                         <div class="col-sm-7">
                             <p class="name">Dinner</p>
                             <p class="company">Student Center</p>
-                            <p class="talk-title">Sponsored by a Charis Fellowship Ministry</p>
-                            <p class="time"><span class="time-start">5:15</span> - 6:30</p>
+                            <p class="talk-title">Sponsored by a Grace College and Seminary</p>
+                            <p class="time"><span class="time-start">5:00</span> - 6:30</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>Charis Fellowship Ministry (TBD)</h4>
+                                <h4>Grace College and Seminary</h4>
 
                                 <p>
-                                <a href="https://charisfellowship.us/">Charis Fellowship</a> is passionate about Biblical truth, relationship and the mission of planting churches, training leaders and doing good for the sake of the gospel. Charis Fellowship ministries help Charis Fellowship churches fulfill this passion.<cfoutput>#ticketRequired()#</cfoutput>
+                                Come join us as we celebrate God's goodness to <a href="http://grace.edu/" target="_new">Grace College & Seminary</a>. We will be conducting our corporation meeting, providing updates, and hearing from Grace students.<cfoutput>#ticketRequired()#</cfoutput>
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -229,7 +229,7 @@
                                 <h4>Celebration</h4>
 
                                 <p>
-                                Great Music, Great Speakers all about our GREAT GOD! Jeff Bogue is the main speaker. 
+                                Great Music, Great Speakers all about our GREAT GOD!<cfoutput>#linkToOpenSpeakersModal()#</cfoutput>
                                 <cfif livestreamIsOpen()> 
                                     <a href="https://livestream.com/access2017/access2017">Watch the live stream here</a>
                                 </cfif>
