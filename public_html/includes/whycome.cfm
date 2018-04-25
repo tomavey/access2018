@@ -18,7 +18,7 @@
                                 </div><!-- /.image-box -->
                             <cfoutput>
                                 <div class="col-sm-7">
-                                    <h2 class="">Why you should come to #settings.name#?</h2>
+                                    <h2 class="">Why should you come to #settings.name#?</h2>
                                     <h4 class="">And what will be waiting for you there</h4>
                                     <cfif cohortsIsOpen()>
                                         <p>
