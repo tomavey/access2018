@@ -19,7 +19,7 @@
                             <cfoutput>
                                 <div class="col-sm-7">
                                     <h2 class="">Why should you come to #settings.name#?</h2>
-                                    <h4 class="">And what will be waiting for you there</h4>
+                                    <h4 class="">And what will be waiting for you there?</h4>
                                     <cfif cohortsIsOpen()>
                                         <p>
                                             Leaders need access! In the church, leaders need other Jesus-following-leaders who have the experiences and perspectives that help them advance. #getname('c')# will be intentionally designed to give leaders meaningful, ministry-changing access in ministry areas like:
