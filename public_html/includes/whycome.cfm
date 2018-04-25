@@ -56,7 +56,7 @@
                                     <h4 class="">Intentionally Interactive</h4>
 
                                     <p>
-                                        We will create more time in the schedule for you to gather with other leaders who know what you need and need what you know. Call them cohorts, or round-tables, or interest groups but we will provide ample time for you to talk about what you are learning in ministry. We'd like to call #getname()# a "customized conference."
+                                        We will create more time in the schedule for you to gather with other leaders who know what you need and need what you know. Call them cohorts, or round-tables, or interest groups but we will provide ample time for you to talk about what you are learning in ministry. We like to call #getname()# a "customized conference."
                                     </p>
                                     <p>
                                         <span ng-repeat="cohort in cohorts">{{cohort.title}} &bull; </span>
