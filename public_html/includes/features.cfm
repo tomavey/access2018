@@ -14,7 +14,7 @@
                             <h3>Grace Community Church</h3>
 
                             <p class="features-description">
-                                Fremont, Ohio is not a large town (16,000 people)!  However Grace Community Church (a member of the Fellowship of Grace Brethren Churches) has seen steady numerical and spiritual growth for 25 years. With over 100,000 square feet of gathering space we will have lots of options.  And the church is commited to keeping our expenses low.  This will be least expensive registration cost in years!
+                                Fremont, Ohio is not a large town (16,000 people)!  However Grace Community Church (a member of the Charis Fellowship) has seen steady numerical and spiritual growth for 25 years. With over 100,000 square feet of gathering space we will have lots of options.  And the church is commited to keeping our expenses low.  This will be least expensive registration cost in years!
                             </p>
                         </div><!-- /.text-wrapper -->
                     </div><!-- /.row -->
