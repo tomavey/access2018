@@ -243,13 +243,16 @@
 <cffunction name="getSubtype">
 <cfargument name="subtype" required="true" type="string">
     <cfif subtype is "A">
-        <cfreturn "Tuesday Cohorts: 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
+        <cfreturn "Tuesday: 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
     </cfif>
     <cfif subtype is "B">
-        <cfreturn "Wednesday Cohorts: 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
+        <cfreturn "Wednesday: 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
     </cfif>
     <cfif subtype is "C">
         <cfreturn "">
+    </cfif>
+    <cfif subtype is "D">
+        <cfreturn "Tuesday and Wednesday (2 days): 11:00 am - 12:15 pm AND 2:30 - 3:30 pm">
     </cfif>
 <cfreturn "NA">
 </cffunction>

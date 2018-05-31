@@ -1093,3 +1093,6 @@ Caused by: lucee.runtime.net.mail.MailException: no SMTP Server defined
 "INFO","access2018-startStop-1","05/29/2018","12:52:21","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
 "INFO","access2018-startStop-1","05/29/2018","12:52:22","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
 "INFO","access2018-startStop-1","05/29/2018","12:52:22","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","05/30/2018","08:34:22","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","05/30/2018","08:34:22","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","05/30/2018","08:34:22","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
