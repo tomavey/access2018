@@ -10,8 +10,21 @@
 
     <p><a href="https://www.linkedin.com/pulse/how-facilitate-successful-training-session-rana-kordahi/" target="_new"><img src="https://media.licdn.com/media/gcrc/dms/image/C5612AQFNerDAdg4YFw/article-cover_image-shrink_600_2000/0?e=2127686400&v=beta&t=lk1ws7xnoEb7vg59ZtVJBIfU061O-3bsG7lRlEdtl1E" width="300px" /><br/>How to Facilitate a Successful Training Session</a></p>
 
+    <div style="border:2px solid blue; padding:10px; border-radius:10px; background-color:#D6EAF8;font-size:1.3em;cursor:pointer" onClick="onClick()">
+    <p>We will be asking folks signed up for cohorts to submit their questions and needs in advance.</p>
+    <p><a href="https://charisfellowship.us/conference/coursequestions/list" target="_new">You can see those question HERE</a></p>
+    </div>
+
     <br>
     <button data-remodal-action="cancel" class="remodal-cancel">Close</button>
     <button data-remodal-action="confirm" class="remodal-confirm">Sign Up</button>
 
     </div>
+
+<script>
+
+onClick = function () {
+    window.open("https://charisfellowship.us/conference/coursequestions/list")
+}
+
+</script>
