@@ -23,6 +23,8 @@
 
 <cfinclude template="/includes/modal-excursions.cfm"><!---Modal/popup for list of excursions--->
 
+<cfinclude template="/includes/modal-facilitators.cfm"><!---Modal/popup for list of excursions--->
+
 <cfinclude template="/includes/modal-meals.cfm"><!---Modal/popup for list of meals--->
 
 <cfinclude template="/includes/modal-speakers.cfm"><!---Modal/popup for list of speakers--->

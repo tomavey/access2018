@@ -8,6 +8,7 @@
 			<br/>
 			Each Wednesday Cohort will happen from 11:00 am - 12:15 pm AND 2:30 - 3:30 pm. 
       </p>
+      <p><a data-remodal-target="modal-facilitators" class="cohortnavlink submenu">Facilitator Resources</a></p>
     <cfset cohorts = getCohorts()>
     <cfoutput query="cohorts">
       <div class="well">

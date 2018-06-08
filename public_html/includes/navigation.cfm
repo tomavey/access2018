@@ -56,6 +56,9 @@
                                 <li>
                                     <a data-remodal-target="modal-speakers" class="cohortnavlink submenu">Speakers</a>
                                 </li>
+                                <li>
+                                    <a data-remodal-target="modal-facilitators" class="cohortnavlink submenu">Facilitator Resources</a>
+                                </li>
                                 </cfif>
                                 <cfif contactIsOpen()>
                                     <li><a href="#nav-contact">Contact</a></li>
