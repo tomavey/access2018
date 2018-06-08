@@ -17,7 +17,6 @@
 
     <br>
     <button data-remodal-action="cancel" class="remodal-cancel">Close</button>
-    <button data-remodal-action="confirm" class="remodal-confirm">Sign Up</button>
 
     </div>
 
