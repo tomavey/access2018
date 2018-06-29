@@ -33,6 +33,8 @@
 
 <cfinclude template="/includes/modal-childcareschedule.cfm"><!---Modal/popup for list of child care schedule--->
 
+<cfinclude template="/includes/modal-childcareprogram.cfm"><!---Modal/popup for list of child care program--->
+
 <cfif isMobile() && parallaxSecondIsOpen()>
     <cfinclude template="/includes/parallax-second.cfm">
 </cfif>
