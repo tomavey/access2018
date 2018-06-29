@@ -1639,3 +1639,18 @@ Caused by: lucee.runtime.net.mail.MailException: no SMTP Server defined
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 "
+"INFO","access2018-startStop-1","06/11/2018","09:50:35","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","06/11/2018","09:50:36","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","06/11/2018","09:50:36","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","06/13/2018","17:52:58","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","06/13/2018","17:53:00","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","06/13/2018","17:53:00","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","06/15/2018","11:19:02","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","06/15/2018","11:19:02","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","06/15/2018","11:19:02","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","06/20/2018","08:05:55","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","06/20/2018","08:05:55","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","06/20/2018","08:05:55","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","access2018-startStop-1","06/28/2018","11:01:20","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","access2018-startStop-1","06/28/2018","11:01:20","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","access2018-startStop-1","06/28/2018","11:01:21","OSGi","add bundle:C:\Users\Tom Avey\Documents\inetpub\wwwroot\access2018\public_html\WEB-INF\lucee\context\lucee-context.lar"

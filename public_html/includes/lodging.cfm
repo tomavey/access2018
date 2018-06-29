@@ -6,7 +6,7 @@
                     <div class="span12">
                         <span class="parallax-title">Lodging Options:</span>
                         <div class="hotels">
-                        <p>We are working with the local Convention and Visitors Bureau to secure some decent hotel rates. Stay tuned!</p>
+                        <p>We have found that online rates are better than group rates we can negotiate with hotels.</p>
                         <p>Some Fremont hotels that we can suggest include:</p>
                         <ul>
                             <li class="hotelname"><a href="http://hamptoninn3.hilton.com/en/hotels/ohio/hampton-inn-and-suites-fremont-FREOHHX/index.html" target="_new">Hampton Inn & Suites by Hilton</a>
