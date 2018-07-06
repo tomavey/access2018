@@ -25,7 +25,7 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content">
-                                            <p class="price">115<sup>$</sup></p>
+                                            <p class="price">135<sup>$</sup></p>
                                             <ul class="span3">
                                                 <li>Registration for a single.</li>
 <!---                                          <li>Parking place</li>
@@ -42,7 +42,7 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content best-offer">
-                                            <p class="price">170<sup>$</sup></p>
+                                            <p class="price">200<sup>$</sup></p>
 
                                             <ul class="span3">
                                                 <li>Registration for a couple</li>
