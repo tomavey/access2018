@@ -22,7 +22,7 @@
                     <div class="tab-pane fade in active" id="tab-1-pricing">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
+                                <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content">
                                             <p class="price">125<sup>$</sup></p>
@@ -33,53 +33,37 @@
                                             </ul>
                                             <a href="https://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
 
-<!---                                            <a class="btn btn-buy">Buy now</a>
---->
                                         </div><!-- /.content -->
                                     </div><!-- /.circle -->
                                 </div><!-- /.span4  -->
 
-                                <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
+                                <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content best-offer">
                                             <p class="price">180<sup>$</sup></p>
 
                                             <ul class="span3">
                                                 <li>Registration for a couple - Before July 15</li>
-<!---
-                                                <li>Free cathering</li>
-                                                <li>Parking place</li>
---->
                                             </ul>
                                             <a href="https://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
-<!---
-                                            <a class="btn btn-buy">Buy now</a>
---->
-<!---                                           <div class="bubble">
-                                                <p>Best Offer</p>
-                                            </div><!-- /.bubble -->
---->
                                         </div><!-- /.content -->
                                     </div><!-- /.circle -->
                                 </div><!-- /.circle-2 -->
 
-                                <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
+<!---
+                                <div class="col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-3" style="display:none">
                                     <div class="circle">
                                         <div class="content">
                                             <p class="price">Closed<sup></sup></p>
 
                                             <ul class="span3">
                                                 <li>each for groups of 5 or more.</li>
-<!---
-                                                <li>Free cathering</li>
-                                                <li>VIP sitting place</li>
-                                                <li>After party with speakers</li>
---->
                                             </ul>
                                             <a href="https://charisfellowship.us/access2018" class="btn btn-buy" target="_blank">Register now</a>
                                         </div><!-- /.content -->
                                     </div><!-- /.circle -->
                                 </div><!-- /.span4 -->
+--->                                
                             </div><!-- /.row -->
                         </div><!-- /.container -->
                     </div><!-- /.tab-1 -->
