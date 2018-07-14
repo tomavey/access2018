@@ -25,9 +25,9 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content">
-                                            <p class="price">135<sup>$</sup></p>
+                                            <p class="price">125<sup>$</sup></p>
                                             <ul class="span3">
-                                                <li>Registration for a single.</li>
+                                                <li>Registration for a single - Before July 15</li>
 <!---                                          <li>Parking place</li>
 --->
                                             </ul>
@@ -42,10 +42,10 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content best-offer">
-                                            <p class="price">200<sup>$</sup></p>
+                                            <p class="price">180<sup>$</sup></p>
 
                                             <ul class="span3">
-                                                <li>Registration for a couple</li>
+                                                <li>Registration for a couple - Before July 15</li>
 <!---
                                                 <li>Free cathering</li>
                                                 <li>Parking place</li>
@@ -66,7 +66,7 @@
                                 <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
                                     <div class="circle">
                                         <div class="content">
-                                            <p class="price">65<sup>$</sup></p>
+                                            <p class="price">Closed<sup></sup></p>
 
                                             <ul class="span3">
                                                 <li>each for groups of 5 or more.</li>
