@@ -21,16 +21,14 @@
 
                             <cfif mobileIsOpen()>    
                                 <div>                                    
-                                    <a  target="_blank" href="https://itunes.apple.com/app/id1240750654" class="uv-button uv-button--appstore">
-                                        <img src="images/downloadForIphone.png"  height="43" width="150"/>
+                                    <h3>Visit our Access web app</h3>
+                                    <a  target="_blank" href="https://access2018.app" class="uv-button uv-button--appstore">
+                                        <img src="https://charisfellowship.us/images/conference/exhibitors/pre-session_slides/Access2018_home_small.png"  height="200"/>
                                     </a>
                                                 
-                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.attendify.confb14jen" class="uv-button uv-button--playstore" >
-                                        <img src="images/downloadForAndroid.png"  height="43" width="150" />
-                                    </a>
-                                    <a target="_blank" href="https://livestream.com/access2017/access2017" class="uv-button uv-button--playstore" >
-                                        <img src="images/livestream.png"  height="43" width="150" />
-                                    </a>
+<!---                                     <a target="_blank" href="https://livestream.com/access2017/access2017" class="uv-button uv-button--playstore" > --->
+<!---                                         <img src="images/livestream.png"  height="43" width="150" /> --->
+<!---                                     </a> --->
                                 </div>
                             </cfif>    
                                     <h1 class="#mobilebannerheader#">#getName('l')#</h1>

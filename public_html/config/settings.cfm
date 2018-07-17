@@ -28,7 +28,7 @@ settings.showSlide3 = false;
 settings.showVideo = true;
 settings.vimeoid = "270682855/";
 settings.debugon = false;
-settings.mobileopen = false;
+settings.mobileopen = true;
 settings.mealticketsopen = true;
 
 <!---Turn on off menu items--->
