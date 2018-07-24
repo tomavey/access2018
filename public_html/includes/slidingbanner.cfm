@@ -21,7 +21,7 @@
 
                             <cfif mobileIsOpen()>    
                                 <div>                                    
-                                    <a href="https://access2018.app" target="_blank"><h3>Are you attending Access2018?<br/>Go to access2018.app for live conference info.</h3></a>
+                                    <a href="https://access2018.app" target="_blank"><p style="font-size:1.5em">Are you attending Access2018?<br/>Go to access2018.app</br>for the conference web app.</p></a>
                                     <a  target="_blank" href="https://access2018.app">
                                         <img src="https://charisfellowship.us/images/conference/exhibitors/pre-session_slides/Access2018_home_small.png"  height="200"/>
                                     </a>
